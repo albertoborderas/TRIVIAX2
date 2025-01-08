@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="700" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaz.controladores.ResultadoController">
+   <children>
+      <Label fx:id="labelResultado" layoutX="251.0" layoutY="28.0" prefHeight="61.0" prefWidth="169.0" text="Resultado Final">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="labelCorrectas" layoutX="54.0" layoutY="106.0" text="Respuestas correctas: 0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+  
+      <Button layoutX="65.0" layoutY="249.0" onAction="#jugarDeNuevo" text="Jugar de nuevo" />
+      <Button layoutX="476.0" layoutY="249.0" onAction="#volverAlMenu" text="Volver al menú principal" />
+      
+      <Label fx:id="labelCorrectas1" layoutX="54.0" layoutY="161.0" prefHeight="27.0" prefWidth="97.0" text="Comodines:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelCom50" layoutX="159.0" layoutY="161.0" prefHeight="27.0" prefWidth="157.0" text="saaaaaaaaaaaaaaaaaaa">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelComCambio" layoutX="329.0" layoutY="161.0" prefHeight="27.0" prefWidth="209.0" text="s">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

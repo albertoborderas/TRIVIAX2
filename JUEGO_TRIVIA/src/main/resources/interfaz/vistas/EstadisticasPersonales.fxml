@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaz.controladores.EstadisticasPersonalesController">
+   <children>
+      <Label layoutX="177.0" layoutY="48.0" prefHeight="27.0" prefWidth="239.0" text="ESTADÍSTICAS PERSONALES" textFill="#ff5656">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="partidasJugadasLabel" layoutX="163.0" layoutY="149.0" prefHeight="20.0" prefWidth="116.0" text="A">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="partidasGanadasLabel" layoutX="168.0" layoutY="180.0" prefHeight="20.0" prefWidth="154.0" text="B">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="110.0" prefHeight="20.0" prefWidth="65.0" style="-fx-font-weight: bold;" text="Nombre:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="nombreLabel" layoutX="109.0" layoutY="110.0" prefHeight="20.0" prefWidth="251.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="flechaContainer" layoutX="-1.0" layoutY="14.0" onMouseClicked="#volverConfiguracion" prefHeight="48.0" prefWidth="90.0" />
+      <Label fx:id="porcentajeAciertosLabel" layoutX="293.0" layoutY="233.0" prefHeight="20.0" prefWidth="207.0" text="B">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="149.0" prefHeight="20.0" prefWidth="116.0" style="-fx-font-weight: bold;" text="Partidas jugadas:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="180.0" prefHeight="20.0" prefWidth="116.0" style="-fx-font-weight: bold;" text="Partidas ganadas:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="233.0" prefHeight="20.0" prefWidth="251.0" style="-fx-font-weight: bold;" text="Porcentaje de aciertos por respuesta:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="263.0" prefHeight="20.0" prefWidth="179.0" style="-fx-font-weight: bold;" text="Comodines totales usados:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="comodinesUsadosLabel" layoutX="226.0" layoutY="263.0" prefHeight="20.0" prefWidth="207.0" text="B">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="296.0" prefHeight="20.0" prefWidth="163.0" style="-fx-font-weight: bold;" text="Mayor racha de aciertos:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="rachaLabel" layoutX="216.0" layoutY="296.0" prefHeight="20.0" prefWidth="154.0" text="B">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

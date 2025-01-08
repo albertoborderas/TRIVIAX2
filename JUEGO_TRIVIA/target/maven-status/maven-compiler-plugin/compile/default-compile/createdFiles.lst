@@ -1,0 +1,16 @@
+Model\Jugador.class
+interfaz\controladores\ConfigurarPartidaController.class
+Model\Pregunta.class
+Database\FirebaseConexion.class
+Principal\App.class
+Model\JugadorSession.class
+Database\FirebaseConexion$2.class
+interfaz\controladores\InicioSesionController.class
+interfaz\controladores\VistaPartidaController.class
+interfaz\controladores\RegistroController.class
+interfaz\controladores\EstadisticasPersonalesController.class
+Principal\ClasePrincipal.class
+interfaz\controladores\RankingController.class
+Database\FirebaseConexion$1.class
+Database\FirebaseConexion$SolicitudPreguntas.class
+interfaz\controladores\ResultadoController.class
